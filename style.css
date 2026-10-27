@@ -1,29 +1,13 @@
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: auto;
 }
 
-#header, #footer {
+#header {
     text-align: center;
-    padding: 10px;
     background-color: #1a365d;
     color: white;
-}
-
-#header ul {
-    list-style: none;
-    padding: 0;
-}
-
-#header a {
-    color: white;
-    text-decoration: none;
-}
-
-#header a.activo {
-    background-color: #3182ce;
-    padding: 3px 8px;
-    border-radius: 3px;
+    padding: 10px;
 }
 
 #header img {
@@ -31,13 +15,8 @@
 }
 
 #inicio {
-    background-color: #ebf5ff;
+    background-color: #E7F1FD;
     padding: 15px;
-}
-
-#inicio h2 {
-    color: #1a365d;
-    border-bottom: 2px solid #3182ce;
 }
 
 #sobre-mi {
@@ -45,32 +24,37 @@
     padding: 15px;
 }
 
-#sobre-mi h2 {
+#aficiones{
+    background-color: white;
+    padding: 15px;
+}
+
+#enlaces{
+    background-color: white;
+    padding: 15px;
+}
+
+#inicio h2{
     color: #1a365d;
     border-bottom: 2px solid #3182ce;
 }
 
-#aficiones {
-    background-color: #fff5f5;
-    padding: 15px;
+#sobre-mi h2{
+    color: #1a365d;
+    border-bottom: 2px solid #3182ce;
 }
 
-#aficiones h2 {
+#aficiones h2{
     color: #9b2c2c;
     border-bottom: 2px solid #e53e3e;
 }
 
-#enlaces {
-    background-color: #f0fff4;
-    padding: 15px;
-}
-
-#enlaces h2 {
+#enlaces h2{
     color: #22543d;
     border-bottom: 2px solid #38a169;
 }
 
-.caja-aficion {
+.caja-aficion{
     background-color: white;
     border: 1px solid #feb2b2;
     border-radius: 5px;
@@ -78,12 +62,7 @@
     margin-bottom: 10px;
 }
 
-.caja-aficion h3 {
-    color: #9b2c2c;
-    margin: 0;
-}
-
-.caja-enlace {
+.caja-enlace{
     background-color: white;
     border: 1px solid #9ae6b4;
     border-radius: 5px;
@@ -91,7 +70,13 @@
     margin-bottom: 10px;
 }
 
-.caja-enlace a {
-    color: #22543d;
-    text-decoration: none;
+#footer{
+    text-align: center;
+    background-color: #1a365d;
+    color: white;
+    padding: 15px;
+}
+
+a{
+    color: white;
 }
