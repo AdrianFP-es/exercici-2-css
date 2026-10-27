@@ -1,64 +1,97 @@
-#footer{
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#header, #footer {
     text-align: center;
-    padding: 1px;
-    background-color: rgb(42, 42, 190);
+    padding: 10px;
+    background-color: #1a365d;
     color: white;
 }
 
-#header{
-    text-align: center;
-    padding: 1px;
-    background-color: rgb(42, 42, 190);
+#header ul {
+    list-style: none;
+    padding: 0;
+}
+
+#header a {
     color: white;
+    text-decoration: none;
 }
 
-#aficiones{
-    padding: 1px;
-    background-color: rgb(254, 178, 178);
+#header a.activo {
+    background-color: #3182ce;
+    padding: 3px 8px;
+    border-radius: 3px;
 }
 
-#aficiones h2{
-    color: rgb(160, 44, 44);
+#header img {
+    width: 100%;
 }
 
-#sobre-mi{
+#inicio {
+    background-color: #ebf5ff;
+    padding: 15px;
+}
+
+#inicio h2 {
+    color: #1a365d;
+    border-bottom: 2px solid #3182ce;
+}
+
+#sobre-mi {
     background-color: white;
+    padding: 15px;
 }
 
-#sobre-mi h2{
-    color: rgb(26, 54, 93);
+#sobre-mi h2 {
+    color: #1a365d;
+    border-bottom: 2px solid #3182ce;
 }
 
-#enlaces{
-    background-color: rgb(154, 230, 180);
+#aficiones {
+    background-color: #fff5f5;
+    padding: 15px;
 }
 
-#inicio{
-    background-color: rgb(235, 245, 255);
-    color: rgb(0, 0, 0);
+#aficiones h2 {
+    color: #9b2c2c;
+    border-bottom: 2px solid #e53e3e;
 }
 
-#inicio h2{
-    color: rgb(26, 54, 93);
+#enlaces {
+    background-color: #f0fff4;
+    padding: 15px;
 }
 
-#saludo{
-    border-bottom: 5px solid rgb(26, 54, 93);
+#enlaces h2 {
+    color: #22543d;
+    border-bottom: 2px solid #38a169;
 }
 
-#sobre-mi{
-    border-bottom: 5px solid rgb(26, 54, 93);
+.caja-aficion {
+    background-color: white;
+    border: 1px solid #feb2b2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-#mis-aficiones{
-    border-bottom: 5px solid rgb(248, 160, 160);
+.caja-aficion h3 {
+    color: #9b2c2c;
+    margin: 0;
 }
 
-#enlaces-recomendados{
-    border-bottom: 5px solid rgb(126, 238, 165);
+.caja-enlace {
+    background-color: white;
+    border: 1px solid #9ae6b4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
-.container{
-    width: 1024px;
-    margin: 20px auto;
+.caja-enlace a {
+    color: #22543d;
+    text-decoration: none;
 }
