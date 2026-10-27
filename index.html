@@ -6,46 +6,88 @@
     <title>Mi página personal</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<header id="header">
-        <h1>Mi página personal</h1>
-    <p>Aprender, crear y disfrutar</p>
-        <ul>
-            <li> Inicio</li>
-            <li> Sobre mí</li>
-            <li> Mis aficiones</li>
-            <li> Enlaces recomendados</li>
-        </ul>
-    <img src="img/muntanya-practica-css.jpg" alt="Imagen de la montaña">
-</header>
 <body>
-    <h2>¡Hola!</h2>
-        <p>Me llamo Alex y esta es mi pagina personal. Me gusta la tecnologia, la montaña y aprender cosas nuevas. En esta web encontrarás un poco más sobre mi, mis aficiones y algunos enlaces que me resultan interesantes. </p>
-    <h2>Sobre mí</h2>
-        <p>Soy estudiante de desarrollo web. Me interesa el disño, la programación y todo lo relacionado con la tecnologia.
-    <br>
-           Me gusta aprender de forma práctica, y crear pequeños proyectos. 
-    </p>
-    <h2>Mis aficiones</h2>
-    <h3>Senderismo y montaña</h3>
-        <p>Me encanta salir a la naturaleza, descubrir nuevos lugares y disfrutar de las vistas.</p>
-    <h3>Fotografía</h3>
-        <p>Me gusta hacer fotos de paisajes y de mis viajes.</p>
-    <h2>Música</h2>
-        <p>Escucho diferentes estilos de musica, sofre todo rock y electrónica</p>
-    <h2>Leer libros de tecnología</h2>
-        <p>Siempre estoy buscando libros y artículos para aprender cosas nuevas.</p>
-    <h2>Viajar</h2>
-        <p>Me encanta conocer nuevos lugares, otrs culturas y probar comidas diferentes.</p>
-    <br>
-    <h2>Enlaces recomendados</h2>
-    <h3>MDN Web Docs</h3>
-        <p>Documentación de HTML, CSS y JavaScript.</p>
-    <h3>W3Schools</h3>
-        <p> Tutoriales y ejemplos de desarrollo web</p>
-    <h3>Unsplash</h3>
-        <p>Imagenes gratuitas de gran calidad</p>
-    <footer id="footer">
-        <p>&copy; 2024 Alex Todos los derechos reservados.</p>
-    </footer>
+    <div class="container">
+        <header id="header">
+            <h1>Mi página personal</h1>
+            <p>Aprender, crear y disfrutar</p>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#aficiones">Mis aficiones</a></li>
+                    <li><a href="#enlaces">Enlaces recomendados</a></li>
+                </ul>
+            </nav>
+            <img src="img/muntanya-practica-css.jpg" alt="Imagen de la montaña">
+        </header>
+
+        <main>
+            <section id="inicio">
+                <div>
+                    <h2>¡Hola!</h2>
+                    <p>Me llamo Adrian y esta es mi página personal. Me gusta la tecnología, la montaña y aprender cosas nuevas. En esta web encontrarás un poco más sobre mí, mis aficiones y algunos enlaces que me resultan interesantes.</p>
+                </div>
+            </section>
+
+            <section id="sobre-mi">
+                <div>
+                    <h2>Sobre mí</h2>
+                    <p>Soy estudiante de desarrollo web. Me interesa el diseño, la programación y todo lo relacionado con la tecnología.
+                    <br>
+                    Me gusta aprender de forma práctica, y crear pequeños proyectos. 
+                    </p>
+                </div>
+            </section>
+
+            <section id="aficiones">
+                <div>
+                    <h2>Mis aficiones</h2>
+                </div>
+                <div class="caja-aficion">
+                    <h3>Senderismo y montaña</h3>
+                    <p>Me encanta salir a la naturaleza, descubrir nuevos lugares y disfrutar de las vistas.</p>
+                </div>
+                <div class="caja-aficion">
+                    <h3>Fotografía</h3>
+                    <p>Me gusta hacer fotos de paisajes y de mis viajes.</p>
+                </div>
+                <div class="caja-aficion">
+                    <h3>Música</h3>
+                    <p>Escucho diferentes estilos de música, sobre todo rock y electrónica.</p>
+                </div>
+                <div class="caja-aficion">
+                    <h3>Leer libros de tecnología</h3>
+                    <p>Siempre estoy buscando libros y artículos para aprender cosas nuevas.</p>
+                </div>
+                <div class="caja-aficion">
+                    <h3>Viajar</h3>
+                    <p>Me encanta conocer nuevos lugares, otras culturas y probar comidas diferentes.</p>
+                </div>
+            </section>
+
+            <section id="enlaces">
+                <div>
+                    <h2>Enlaces recomendados</h2>
+                </div>
+                <div class="caja-enlace">
+                    <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+                    <p>Documentación de HTML, CSS y JavaScript.</p>
+                </div>
+                <div class="caja-enlace">
+                    <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+                    <p>Tutoriales y ejemplos de desarrollo web.</p>
+                </div>
+                <div class="caja-enlace">
+                    <a href="https://unsplash.com" target="_blank">Unsplash</a>
+                    <p>Imágenes gratuitas de gran calidad.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <p>&copy; 2024 Adrian. Todos los derechos reservados.</p>
+        </footer>
+    </div>
 </body>
 </html>

@@ -11,3 +11,54 @@
     background-color: rgb(42, 42, 190);
     color: white;
 }
+
+#aficiones{
+    padding: 1px;
+    background-color: rgb(254, 178, 178);
+}
+
+#aficiones h2{
+    color: rgb(160, 44, 44);
+}
+
+#sobre-mi{
+    background-color: white;
+}
+
+#sobre-mi h2{
+    color: rgb(26, 54, 93);
+}
+
+#enlaces{
+    background-color: rgb(154, 230, 180);
+}
+
+#inicio{
+    background-color: rgb(235, 245, 255);
+    color: rgb(0, 0, 0);
+}
+
+#inicio h2{
+    color: rgb(26, 54, 93);
+}
+
+#saludo{
+    border-bottom: 5px solid rgb(26, 54, 93);
+}
+
+#sobre-mi{
+    border-bottom: 5px solid rgb(26, 54, 93);
+}
+
+#mis-aficiones{
+    border-bottom: 5px solid rgb(248, 160, 160);
+}
+
+#enlaces-recomendados{
+    border-bottom: 5px solid rgb(126, 238, 165);
+}
+
+.container{
+    width: 1024px;
+    margin: 20px auto;
+}
